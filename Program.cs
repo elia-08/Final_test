@@ -25,9 +25,11 @@
                 count++;
             }
         }
+        
         Array.Resize(ref result, count);
         return result;
     }
+     
     static void ShowArray(string[] array)
     {
         if (array.Length == 0)
@@ -40,6 +42,7 @@
             Console.WriteLine();
         }
     }
+     
     static void ShowTask(string[] array)
     {
         Console.WriteLine("Исходный массив:");
